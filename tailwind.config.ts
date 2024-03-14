@@ -22,6 +22,7 @@ const config: Config = {
       colors: {
         "ash-white": "#DFD9C3",
         "ash-green": "#668F6F",
+        "bold-green": "#2D733E",
       },
     },
   },
