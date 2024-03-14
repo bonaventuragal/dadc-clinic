@@ -15,7 +15,7 @@ export const AboutUsSection = () => {
           />
           <span className="text-ash-green lg:text-2xl">Tentang Kami</span>
         </div>
-        <p className="text-black/50 font-light leading-4 text-xs lg:text-lg">
+        <p className="text-black/50 font-light leading-4 text-xs lg:text-lg lg:w-4/5">
           DADC Clinic adalah lorem ipsum sir dolot amit sir dolot amit. lorem
           ipsum sir dolot amit sir dolot amit. lorem ipsum sir dolot amit sir
           dolot amit.
