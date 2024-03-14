@@ -1,8 +1,73 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import "./globals.css";
+import localFont from "next/font/local";
+import { Navbar } from "@/components";
 
-const inter = Inter({ subsets: ["latin"] });
+const cocogoosePro = localFont({
+  src: [
+    {
+      path: "../../public/font/cocogoose-pro/Thin.otf",
+      weight: "100",
+      style: "normal",
+    },
+    {
+      path: "../../public/font/cocogoose-pro/ThinItalic.otf",
+      weight: "100",
+      style: "italic",
+    },
+    {
+      path: "../../public/font/cocogoose-pro/UltraLight.otf",
+      weight: "200",
+      style: "normal",
+    },
+    {
+      path: "../../public/font/cocogoose-pro/UltraLightItalic.otf",
+      weight: "200",
+      style: "italic",
+    },
+    {
+      path: "../../public/font/cocogoose-pro/Light.otf",
+      weight: "300",
+      style: "normal",
+    },
+    {
+      path: "../../public/font/cocogoose-pro/LightItalic.otf",
+      weight: "300",
+      style: "italic",
+    },
+    {
+      path: "../../public/font/cocogoose-pro/Light.otf",
+      weight: "300",
+      style: "normal",
+    },
+    {
+      path: "../../public/font/cocogoose-pro/LightItalic.otf",
+      weight: "300",
+      style: "italic",
+    },
+    {
+      path: "../../public/font/cocogoose-pro/SemiLight.otf",
+      weight: "350",
+      style: "normal",
+    },
+    {
+      path: "../../public/font/cocogoose-pro/SemiLightItalic.otf",
+      weight: "350",
+      style: "italic",
+    },
+    {
+      path: "../../public/font/cocogoose-pro/Regular.otf",
+      weight: "400",
+      style: "normal",
+    },
+    {
+      path: "../../public/font/cocogoose-pro/Italic.otf",
+      weight: "400",
+      style: "italic",
+    },
+  ],
+  variable: "--font-cocogoose-pro",
+});
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,7 +81,23 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <head>
+        {/* <link
+          rel="stylesheet"
+          type="text/css"
+          charSet="UTF-8"
+          href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"
+        />
+        <link
+          rel="stylesheet"
+          type="text/css"
+          href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
+        /> */}
+      </head>
+      <body className={cocogoosePro.className}>
+        <Navbar />
+        {children}
+      </body>
     </html>
   );
 }
