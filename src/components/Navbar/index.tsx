@@ -13,14 +13,18 @@ export const Navbar = () => {
         </div>
       </div>
 
-      <nav className="bg-black/10 p-3 rounded-xl cursor-pointer">
-        <button className="flex justify-center items-center gap-2">
+      <nav className="bg-black/10 p-3 rounded-xl">
+        <a
+          className="flex justify-center items-center gap-2"
+          href="https://wa.me/087715995964"
+          target="_blank"
+        >
           <HiOutlinePhone size={24} color="#668F6F" strokeWidth={2.2} />
           <span className="flex flex-col lg:flex-row lg:gap-1 justify-center items-start text-ash-green leading-none text-xs lg:text-sm">
             <span>Kontak </span>
             <span>Kami</span>
           </span>
-        </button>
+        </a>
       </nav>
     </header>
   );

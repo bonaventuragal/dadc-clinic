@@ -45,7 +45,7 @@ export const LocationSection = () => {
             target="_blank"
           >
             <div className="flex items-center gap-2 lg:gap-4">
-              <Image src={MapsLogo} alt="" />
+              <Image src={MapsLogo} alt="" className="lg:w-7 lg:h-7" />
               <span className="font-semilight text-[10px] lg:text-lg">
                 Lihat Peta
               </span>

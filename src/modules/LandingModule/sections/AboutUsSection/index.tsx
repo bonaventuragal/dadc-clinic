@@ -22,7 +22,7 @@ export const AboutUsSection = () => {
         </p>
       </div>
 
-      <div className="flex flex-col gap-3">
+      <div className="flex flex-col gap-3 lg:w-2/5">
         <AboutItem
           title="Seputar Layanan"
           content="@dadc.clinic"
