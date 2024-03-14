@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import localFont from "next/font/local";
+import { Navbar } from "@/components";
 
 const cocogoosePro = localFont({
   src: [
@@ -80,7 +81,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={cocogoosePro.className}>{children}</body>
+      <body className={cocogoosePro.className}>
+        <Navbar />
+        {children}
+      </body>
     </html>
   );
 }
