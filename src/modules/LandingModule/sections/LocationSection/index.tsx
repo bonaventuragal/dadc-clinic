@@ -39,7 +39,11 @@ export const LocationSection = () => {
             63117
           </span>
 
-          <a className="p-2 flex justify-between items-center bg-black/10 border-2 border-white/20">
+          <a
+            className="p-2 flex justify-between items-center bg-black/10 border-2 border-white/20"
+            href="https://maps.app.goo.gl/wJWU2rUeQuB6su5BA"
+            target="_blank"
+          >
             <div className="flex items-center gap-2">
               <Image src={MapsLogo} alt="" />
               <span className="font-semilight text-[10px]">Lihat Peta</span>
