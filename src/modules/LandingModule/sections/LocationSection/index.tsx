@@ -34,21 +34,26 @@ export const LocationSection = () => {
             />
             <span className="lg:text-3xl">Lokasi Kami</span>
           </div>
-          <span className="font-light text-xs text-ash-white">
+          <span className="font-light text-xs lg:text-xl text-ash-white">
             Jl. Thamrin No.34, Klegen, Kec. Madiun, Kota Madiun, Jawa Timur
             63117
           </span>
 
           <a
-            className="p-2 flex justify-between items-center bg-black/10 border-2 border-white/20"
+            className="p-2 lg:p-4 flex justify-between items-center bg-black/10 border-2 border-white/20"
             href="https://maps.app.goo.gl/wJWU2rUeQuB6su5BA"
             target="_blank"
           >
-            <div className="flex items-center gap-2">
+            <div className="flex items-center gap-2 lg:gap-4">
               <Image src={MapsLogo} alt="" />
-              <span className="font-semilight text-[10px]">Lihat Peta</span>
+              <span className="font-semilight text-[10px] lg:text-lg">
+                Lihat Peta
+              </span>
             </div>
-            <PiArrowLineUpRight strokeWidth={4} />
+            <PiArrowLineUpRight
+              strokeWidth={4}
+              className="w-4 h-4 lg:w-6 lg:h-6"
+            />
           </a>
         </div>
 
