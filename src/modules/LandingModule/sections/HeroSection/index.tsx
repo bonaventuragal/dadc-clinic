@@ -47,12 +47,12 @@ export const HeroSection = () => {
             <Image
               src={Logo}
               alt="DADC Logo"
-              className="!w-6 !h-6 lg:!w-12 lg:!h-12"
+              className="!w-6 !h-6 md:!w-10 md:!h-10 lg:!w-12 lg:!h-12"
             />
             <span className="text-white font-semilight lg:text-lg">
               {tagline1}
             </span>
-            <span className="text-white italic text-3xl lg:text-6xl">
+            <span className="text-white italic text-4xl md:text-5xl lg:text-6xl">
               {tagline2}
             </span>
             {tagline3 && (

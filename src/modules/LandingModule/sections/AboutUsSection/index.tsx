@@ -5,7 +5,7 @@ import { AboutItem } from "./AboutItem";
 
 export const AboutUsSection = () => {
   return (
-    <section className="bg-ash-white flex flex-col lg:flex-row lg:justify-between gap-5 px-7 lg:px-32 pb-3 lg:pb-20 lg:pt-12">
+    <section className="bg-ash-white flex flex-col lg:flex-row lg:justify-between gap-5 px-7 lg:px-32 pb-3 md:pb-20 lg:pt-12">
       <div className="flex flex-col gap-3 lg:w-1/2">
         <div className="flex items-center gap-2">
           <Image

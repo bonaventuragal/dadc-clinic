@@ -10,7 +10,7 @@ import { PiArrowLineUpRight } from "react-icons/pi";
 export const LocationSection = () => {
   return (
     <section className="flex flex-col bg-ash-green">
-      <div className="flex flex-col-reverse h-10 lg:h-28 relative">
+      <div className="flex flex-col-reverse h-10 md:h-28 relative">
         <div className="w-1/2 h-1/3 bg-gradient-to-r from-ash-white to-ash-green" />
         <div className="absolute h-2/3 w-1/2">
           <Image
