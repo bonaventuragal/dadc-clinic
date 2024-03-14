@@ -74,6 +74,7 @@ export const HeroSection = () => {
         infiniteLoop
         showArrows={false}
         showStatus={false}
+        showThumbs={false}
         renderIndicator={(_clickHandler, isSelected) => {
           return (
             <li
