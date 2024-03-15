@@ -80,6 +80,22 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "Klinik Gigi",
+    name: "DADC Clinic",
+    address: {
+      "@type": "PostalAddress",
+      streetAddress:
+        "Jl. Thamrin No.34, Klegen, Kec. Madiun, Kota Madiun, Jawa Timur 63117",
+      addressLocality: "Madiun",
+      addressRegion: "Jawa Barat",
+      postalCode: "63117",
+      addressCountry: "ID",
+    },
+    telephone: "087715995964",
+  };
+
   return (
     <html lang="en">
       <head>
@@ -94,6 +110,12 @@ export default function RootLayout({
           gtag('js', new Date());
         
           gtag('config', 'G-14T5DS6GXJ');`,
+          }}
+        ></script>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(structuredData),
           }}
         ></script>
       </head>
