@@ -81,7 +81,21 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head></head>
+      <head>
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-14T5DS6GXJ"
+        ></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+        
+          gtag('config', 'G-14T5DS6GXJ');`,
+          }}
+        ></script>
+      </head>
       <body className={cocogoosePro.className}>
         <Navbar />
         {children}
