@@ -1,5 +1,3 @@
-"use client";
-
 import Image from "next/image";
 import DecorationLogo from "../../../../../public/images/logo-decoration.svg";
 import MapsLogo from "../../../../../public/images/maps-logo.svg";
