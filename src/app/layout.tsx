@@ -105,6 +105,7 @@ export default function RootLayout({
             __html: JSON.stringify(structuredData),
           }}
         ></script>
+        <link rel="canonical" href="https://dadc-clinic.com" />
       </head>
       <body className={cocogoosePro.className}>
         <Navbar />
