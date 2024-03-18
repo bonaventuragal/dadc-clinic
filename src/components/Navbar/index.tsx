@@ -16,7 +16,7 @@ export const Navbar = () => {
       <nav className="bg-black/10 p-3 rounded-xl">
         <a
           className="flex justify-center items-center gap-2"
-          href="https://wa.me/087715995964"
+          href="https://wa.me/6287715995964"
           target="_blank"
         >
           <HiOutlinePhone size={24} color="#668F6F" strokeWidth={2.2} />
