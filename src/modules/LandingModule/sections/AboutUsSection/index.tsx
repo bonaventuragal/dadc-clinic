@@ -37,7 +37,7 @@ export const AboutUsSection = () => {
         <AboutItem
           title="More Info / Reservasi"
           content="(+62) 877 1599 5964"
-          href="https://wa.me/087715995964"
+          href="https://wa.me/6287715995964"
           icon={
             <IoLogoWhatsapp
               color="#00000080"
