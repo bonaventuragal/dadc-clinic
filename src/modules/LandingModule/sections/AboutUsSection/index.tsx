@@ -16,9 +16,12 @@ export const AboutUsSection = () => {
           <span className="text-ash-green lg:text-2xl">Tentang Kami</span>
         </div>
         <p className="text-black/50 font-light leading-4 text-xs lg:text-lg lg:w-4/5">
-          DADC Clinic adalah lorem ipsum sir dolot amit sir dolot amit. lorem
-          ipsum sir dolot amit sir dolot amit. lorem ipsum sir dolot amit sir
-          dolot amit.
+          DADC Clinic merupakan salah satu klinik gigi terbaik di Madiun dengan
+          komitmen untuk senantiasa memberikan pelayanan dan perawatan dibidang
+          gigi dan mulut yang terbaik dan berkualitas. Didukung dengan alat-
+          alat yang up to date dan dokter gigi serta staff yang berpengalaman
+          dan bertanggung jawab. Kami berharap kehadiran kami menjadi solusi
+          dari permasalahan kesehatan gigi dan mulut masyarakat.
         </p>
       </div>
 
