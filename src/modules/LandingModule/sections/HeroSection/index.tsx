@@ -75,6 +75,8 @@ export const HeroSection = () => {
         showArrows={false}
         showStatus={false}
         showThumbs={false}
+        autoPlay
+        interval={3000}
         renderIndicator={(_clickHandler, isSelected) => {
           return (
             <li
