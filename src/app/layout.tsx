@@ -72,7 +72,15 @@ const cocogoosePro = localFont({
 export const metadata: Metadata = {
   title: "DADC Clinic",
   description: "Klinik Dokter Gigi DADC Madiun",
-  keywords: ["klinik", "gigi", "madiun", "klinik gigi madiun", "klinik gigi"],
+  keywords: [
+    "klinik",
+    "gigi",
+    "madiun",
+    "klinik gigi madiun",
+    "klinik gigi",
+    "dentist",
+    "clinic",
+  ],
 };
 
 export default function RootLayout({
