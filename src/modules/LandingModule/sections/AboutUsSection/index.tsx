@@ -10,7 +10,7 @@ export const AboutUsSection = () => {
         <div className="flex items-center gap-2">
           <Image
             src={AboutUsLogo}
-            alt="About Us Logo"
+            alt=""
             className="w-10 h-10 lg:w-12 lg:h-12"
           />
           <span className="text-ash-green lg:text-2xl">Tentang Kami</span>

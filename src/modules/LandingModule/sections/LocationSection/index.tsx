@@ -56,11 +56,7 @@ export const LocationSection = () => {
         </div>
 
         <div className="w-1/2">
-          <Image
-            src={LocationImage}
-            alt="Clinic Location"
-            className="w-full h-full"
-          />
+          <Image src={LocationImage} alt="" className="w-full h-full" />
         </div>
       </div>
     </section>
