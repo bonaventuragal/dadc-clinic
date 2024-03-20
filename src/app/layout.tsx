@@ -90,7 +90,7 @@ export default function RootLayout({
 }>) {
   const structuredData = {
     "@context": "https://schema.org",
-    "@type": "Klinik Gigi",
+    "@type": "Dentist",
     name: "DADC Clinic",
     address: {
       "@type": "PostalAddress",
@@ -101,7 +101,11 @@ export default function RootLayout({
       postalCode: "63117",
       addressCountry: "ID",
     },
-    telephone: "087715995964",
+    telephone: "6287715995964",
+    logo: "https://dadc-clinic.com/favicon.ico",
+    description:
+      "DADC Clinic merupakan salah satu klinik gigi terbaik di Madiun",
+    sameAs: ["https://www.instagram.com/dadc.clinic/"],
   };
 
   return (
