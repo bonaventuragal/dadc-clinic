@@ -10,15 +10,22 @@ export const AboutUsSection = () => {
         <div className="flex items-center gap-2">
           <Image
             src={AboutUsLogo}
-            alt="About Us Logo"
+            alt=""
             className="w-10 h-10 lg:w-12 lg:h-12"
           />
           <span className="text-ash-green lg:text-2xl">Tentang Kami</span>
         </div>
         <p className="text-black/50 font-light leading-4 text-xs lg:text-lg lg:w-4/5">
-          DADC Clinic adalah lorem ipsum sir dolot amit sir dolot amit. lorem
-          ipsum sir dolot amit sir dolot amit. lorem ipsum sir dolot amit sir
-          dolot amit.
+          DADC Clinic merupakan salah satu <strong>klinik gigi terbaik</strong>{" "}
+          di Madiun dengan komitmen untuk senantiasa memberikan pelayanan dan
+          perawatan dibidang gigi dan mulut yang terbaik dan berkualitas.
+          Didukung dengan{" "}
+          <strong>
+            alat- alat yang <em>up to date</em>
+          </strong>{" "}
+          dan <strong>dokter gigi serta staff yang berpengalaman</strong> dan
+          bertanggung jawab. Kami berharap kehadiran kami menjadi solusi dari
+          permasalahan kesehatan gigi dan mulut masyarakat.
         </p>
       </div>
 

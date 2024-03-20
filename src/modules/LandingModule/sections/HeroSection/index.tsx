@@ -19,18 +19,18 @@ export const HeroSection = () => {
   const desktopHero = [HeroDesktop1, HeroDesktop2, HeroDesktop3];
   const heroInfo = [
     {
-      alt: "Hero 1",
+      alt: "DADC Clinic",
       tagline1: "we want to see your",
       tagline2: "Bright Smile",
     },
     {
-      alt: "Hero 2",
+      alt: "DADC Clinic",
       tagline1: "your teeth are",
       tagline2: "More Valuable",
       tagline3: "than diamond for us",
     },
     {
-      alt: "Hero 3",
+      alt: "DADC Clinic",
       tagline1: "we treat your beautiful smile",
       tagline2: "with Heart",
     },
@@ -46,7 +46,7 @@ export const HeroSection = () => {
           <div className="absolute z-10 top-0 left-0 w-full h-full flex flex-col justify-center items-center gap-1 lg:gap-4">
             <Image
               src={Logo}
-              alt="DADC Logo"
+              alt=""
               className="!w-6 !h-6 md:!w-10 md:!h-10 lg:!w-12 lg:!h-12"
             />
             <span className="text-white font-semilight lg:text-lg">
@@ -75,6 +75,8 @@ export const HeroSection = () => {
         showArrows={false}
         showStatus={false}
         showThumbs={false}
+        autoPlay
+        interval={3000}
         renderIndicator={(_clickHandler, isSelected) => {
           return (
             <li
