@@ -30,12 +30,12 @@ export const LocationSection = () => {
               alt=""
               className="w-10 h-10 lg:w-12 lg:h-12"
             />
-            <span className="lg:text-3xl">Lokasi Kami</span>
+            <h2 className="lg:text-3xl">Lokasi Kami</h2>
           </div>
-          <span className="font-light text-xs lg:text-xl text-ash-white">
+          <p className="font-light text-xs lg:text-xl text-ash-white">
             Jl. Thamrin No.34, Klegen, Kec. Madiun, Kota Madiun, Jawa Timur
             63117
-          </span>
+          </p>
 
           <a
             className="p-2 lg:p-4 flex justify-between items-center bg-black/10 border-2 border-white/20"
