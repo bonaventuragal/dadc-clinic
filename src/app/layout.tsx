@@ -70,7 +70,7 @@ const cocogoosePro = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "DADC Clinic",
+  title: "Klinik Gigi DADC Madiun",
   description: "Klinik Dokter Gigi DADC Madiun",
   keywords: [
     "klinik",
@@ -97,7 +97,7 @@ export default function RootLayout({
       streetAddress:
         "Jl. Thamrin No.34, Klegen, Kec. Madiun, Kota Madiun, Jawa Timur 63117",
       addressLocality: "Madiun",
-      addressRegion: "Jawa Barat",
+      addressRegion: "Jawa Timur",
       postalCode: "63117",
       addressCountry: "ID",
     },
@@ -111,6 +111,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
