@@ -13,7 +13,7 @@ export const AboutUsSection = () => {
             alt=""
             className="w-10 h-10 lg:w-12 lg:h-12"
           />
-          <span className="text-ash-green lg:text-2xl">Tentang Kami</span>
+          <h2 className="text-ash-green lg:text-2xl">Tentang Kami</h2>
         </div>
         <p className="text-black/50 font-light leading-4 text-xs lg:text-lg lg:w-4/5">
           DADC Clinic merupakan salah satu <strong>klinik gigi terbaik</strong>{" "}
