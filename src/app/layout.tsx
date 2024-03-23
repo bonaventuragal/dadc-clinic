@@ -71,7 +71,8 @@ const cocogoosePro = localFont({
 
 export const metadata: Metadata = {
   title: "Klinik Gigi DADC Madiun",
-  description: "Klinik Dokter Gigi DADC Madiun",
+  description:
+    "DADC Clinic merupakan salah satu klinik gigi terbaik di Madiun.",
   keywords: [
     "klinik",
     "gigi",
@@ -91,7 +92,7 @@ export default function RootLayout({
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "Dentist",
-    name: "DADC Clinic",
+    name: "Klinik Gigi DADC Madiun",
     address: {
       "@type": "PostalAddress",
       streetAddress:
@@ -104,7 +105,7 @@ export default function RootLayout({
     telephone: "6287715995964",
     logo: "https://dadc-clinic.com/favicon.ico",
     description:
-      "DADC Clinic merupakan salah satu klinik gigi terbaik di Madiun",
+      "DADC Clinic merupakan salah satu klinik gigi terbaik di Madiun.",
     sameAs: ["https://www.instagram.com/dadc.clinic/"],
   };
 
@@ -118,6 +119,13 @@ export default function RootLayout({
             __html: JSON.stringify(structuredData),
           }}
         ></script>
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Klinik Gigi DADC Madiun" />
+        <meta
+          property="og:description"
+          content="DADC Clinic merupakan salah satu klinik gigi terbaik di Madiun."
+        />
+        <meta property="og:url" content="https://www.dadc-clinic.com/" />
         <link rel="canonical" href="https://www.dadc-clinic.com" />
       </head>
       <body className={cocogoosePro.className}>
