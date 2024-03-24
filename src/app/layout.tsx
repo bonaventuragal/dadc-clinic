@@ -70,15 +70,18 @@ const cocogoosePro = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Klinik Gigi DADC Madiun",
+  title: "DADC Clinic | Klinik Dokter Gigi Terbaik di Madiun",
   description:
-    "DADC Clinic merupakan salah satu klinik gigi terbaik di Madiun.",
+    "DADC Clinic merupakan salah satu klinik gigi terbaik di Madiun dengan dokter gigi terpercaya.",
   keywords: [
+    "klinik gigi madiun",
+    "dokter gigi madiun",
+    "klinik gigi",
+    "dokter gigi",
     "klinik",
+    "dokter",
     "gigi",
     "madiun",
-    "klinik gigi madiun",
-    "klinik gigi",
     "dentist",
     "clinic",
   ],
@@ -92,7 +95,7 @@ export default function RootLayout({
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "Dentist",
-    name: "Klinik Gigi DADC Madiun",
+    name: "Klinik Dokter Gigi DADC Madiun",
     address: {
       "@type": "PostalAddress",
       streetAddress:
@@ -105,7 +108,7 @@ export default function RootLayout({
     telephone: "6287715995964",
     logo: "https://dadc-clinic.com/favicon.ico",
     description:
-      "DADC Clinic merupakan salah satu klinik gigi terbaik di Madiun.",
+      "DADC Clinic merupakan salah satu terbaik di Madiun dengan dokter gigi terpercaya.",
     sameAs: ["https://www.instagram.com/dadc.clinic/"],
   };
 
@@ -123,7 +126,7 @@ export default function RootLayout({
         <meta property="og:title" content="Klinik Gigi DADC Madiun" />
         <meta
           property="og:description"
-          content="DADC Clinic merupakan salah satu klinik gigi terbaik di Madiun."
+          content="DADC Clinic merupakan salah satu klinik gigi terbaik di Madiun dengan dokter gigi terpercaya."
         />
         <meta property="og:url" content="https://www.dadc-clinic.com/" />
         <link rel="canonical" href="https://www.dadc-clinic.com" />
