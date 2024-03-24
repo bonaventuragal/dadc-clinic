@@ -70,7 +70,7 @@ const cocogoosePro = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "DADC Clinic | Klinik Dokter Gigi Terbaik di Madiun",
+  title: "DADC Clinic | Rekomendasi Klinik Dokter Gigi Terbaik di Madiun",
   description:
     "DADC Clinic merupakan salah satu klinik gigi terbaik di Madiun dengan dokter gigi terpercaya.",
   keywords: [
