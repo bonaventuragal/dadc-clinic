@@ -18,9 +18,9 @@ export const AboutItem: React.FC<AboutItemProps> = ({
     <div className="flex flex-col gap-1 lg:gap-3">
       <div className="flex items-center gap-1">
         {icon}
-        <span className="text-xs lg:text-[20px] text-ash-green font-semilight">
+        <h3 className="text-xs lg:text-[20px] text-ash-green font-semilight">
           {title}
-        </span>
+        </h3>
       </div>
       <a
         className="flex justify-between items-center bg-black/10 p-2 lg:py-3"

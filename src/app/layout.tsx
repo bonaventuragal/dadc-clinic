@@ -95,7 +95,7 @@ export default function RootLayout({
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "Dentist",
-    name: "Klinik Dokter Gigi DADC Madiun",
+    name: "Klinik Gigi DADC Madiun",
     address: {
       "@type": "PostalAddress",
       streetAddress:
